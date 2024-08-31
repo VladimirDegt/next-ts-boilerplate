@@ -5,5 +5,5 @@ export default function HomePage() {
         <main className={cls.container}>
             <h1>Hello, Next.js!</h1>
         </main>
-    )
+    );
 }
