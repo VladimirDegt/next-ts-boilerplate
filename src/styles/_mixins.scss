@@ -30,3 +30,9 @@
     display: flex;
     justify-content: center;
 }
+
+@mixin urbanist-500-size-24 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Urbanist, sans-serif;
+}

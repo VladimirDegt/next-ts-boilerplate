@@ -4,5 +4,8 @@
     min-height: 100vh;
     min-width: 100vw;
     padding: 16px;
-    background-color: $color-black;
+
+    &_text {
+        @include urbanist-500-size-24;
+    }
 }
