@@ -1,0 +1,9 @@
+@import '@/styles/index';
+
+.container {
+    @include flex-center-column;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 16px;
+    background-color: $color-black;
+}

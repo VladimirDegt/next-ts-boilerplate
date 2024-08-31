@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+
+}
+
+html,
+body {
+  font-size: 14px;
+  max-width: 100vw;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
