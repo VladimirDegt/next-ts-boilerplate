@@ -61,10 +61,10 @@ $ npm run lint:fix
 ├── .gitignore                      # GitHub ignore
 ├── .prettierignore                 # Prettier ignore
 ├── .prettierrc                     # Prettier config
-├── eslint.config.js                # ESLint config
 ├── .stylelintrc.json               # Stylelint config
 ├── .next.config.js                 # Next config
 ├── .playwright.config.js           # Playwright config
+├── eslint.config.js                # ESLint config
 ├── public                          # Public assets folder
 ├── src
 │   ├── app                         # Next JS App (App Router)
