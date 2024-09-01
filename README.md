@@ -53,18 +53,28 @@ $ npm run prettier:fix
 $ npm run lint:fix
 ```
 
+## GitHub Actions CI Pipeline
+
+The GitHub Actions configuration is located in the /.github/workflows directory. 
+The CI pipeline is set up to run various tasks including linting, testing, and building the project. 
+These automated workflows ensure that the codebase maintains quality standards and
+that the project is correctly built and tested on every push or pull request to the specified branches
+
 ## Project structure
 
 ```bash
 .
 ├── README.md                       # README file
+├── .env.local                      # Environment variables
 ├── .gitignore                      # GitHub ignore
 ├── .prettierignore                 # Prettier ignore
 ├── .prettierrc                     # Prettier config
-├── eslint.config.js                # ESLint config
 ├── .stylelintrc.json               # Stylelint config
 ├── .next.config.js                 # Next config
 ├── .playwright.config.js           # Playwright config
+├── eslint.config.js                # ESLint config
+├── .github                         
+│   ├── workflows                   # GitHub Actions CI Pipeline config
 ├── public                          # Public assets folder
 ├── src
 │   ├── app                         # Next JS App (App Router)

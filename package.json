@@ -1,6 +1,7 @@
 {
-  "name": "SendMyPDF",
+  "name": "next-ts-boilerplate",
   "version": "0.0.1",
+  "author": "degtyarevvladimirr@gmail.com",
   "private": true,
   "type": "module",
   "scripts": {
